@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<script type="text/javascript">
-		l = document.navigator.language.split("-")[0];
+		l = navigator.language.split("-")[0];
 		l = ["it", "es", "en", "fr"].includes(l) ? l : "it";
 		window.location(l+"/home.html");
 	</script>
