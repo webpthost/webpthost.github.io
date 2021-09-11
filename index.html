@@ -2,6 +2,11 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="refresh" content="0; URL='/it/home.html'" />
+	<script type="text/javascript">
+		l = document.navigator.language.split("-")[0];
+		l = ["it", "es", "en", "fr"].includes(l) ? l : "it";
+		window.location(l+"/home.html");
+	</script>
+	<noscript><meta http-equiv="refresh" content="0; URL='it/home.html'" /></noscript>
 </head>
 </html>
